@@ -1,0 +1,82 @@
+.bg-image{
+
+
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+        /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    font-family: 'Lato'; font-size: 80px;
+    transform: translate(-50%, -50%);
+    
+    
+    padding: 5px;
+    text-align: center;
+    width: 30%;
+    border: 0px solid black;
+    border-radius: 10px;
+    
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+@keyframes example {
+    0%   {background-color:rgb(251, 255, 251); left: 100px; top:100px;}
+}
+
+
+.Home {
+    text-align: center;
+    font-family: 'Lato'; font-size: 80px;
+    margin-bottom: 10px;
+    color:rgb(251, 255, 251);
+}
+img {
+    width: 150px;
+    
+}
+
+
+.Box{
+    margin: auto;
+    text-align: center;
+    font-family: 'Lato'; font-size: 16px;
+    color:white;
+    
+}
+
+#round {
+    border-radius: 2px;
+    background: #ffffff;
+    padding: 20px;
+    width: 400px;
+    height: 50px;
+}
+
+#submit {
+    border-radius: 2px;
+    color: white;
+    background: rgb(174, 29, 4);
+    padding: 20px;
+    width: 400px;
+    height: 50px;
+}
+
+#Register{
+    color: rgb(0,123,255);
+}
+
+#color{
+    color: rgb(0,123,255);
+}

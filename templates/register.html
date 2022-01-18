@@ -1,0 +1,45 @@
+<html>
+<head>
+    
+    <title>Register</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='register.css') }}">
+    </head>
+    <body>
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+        <div class = "content">
+        
+            <div class = "registration"></div>
+            <h1>Registration </h1>
+
+
+
+        <form method = "POST">
+        </br></br></br>
+        <a>Username</a></br>
+            <input id = "round" class = "form-control" placeholder = "Enter Username" name = "username" required>
+        </br></br>
+
+        <a>First Name</a></br>
+            <input id = "round" class = "form-control" placeholder = "Enter Firstname" name = "fname" required>
+        </br></br>
+
+        <a>Last Name</a></br>
+            <input id = "round" class = "form-control" placeholder = "Enter Lastname" name = "lname" required>
+        </br></br>
+
+        
+        <a>Password</a></br>
+            <input id = "round" class = "form-control" placeholder = "Enter Password" name = "passwd", type = "passwd" required></br>
+        
+        </br>
+      
+            <a href = "/"><input id = "submit" type = "Submit" class = "btn btn-dark" value = "Sign up"></a>
+            <br>
+            <a href = "/"><input id = "submit" type = "button" class = "btn btn-dark" value = "Go back"></a>
+        </form>
+        </div>
+
+    </div>
+  
+    </body>
+    </html>
